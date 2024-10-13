@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Supermarket_mvp.Views
 {
-     public partial class PayModeView : Form, IPayModeView
+    public partial class PayModeView : Form, IPayModeView
     {
         private bool isEdit;
         private bool isSuccessful;
@@ -144,9 +144,9 @@ namespace Supermarket_mvp.Views
             {
                 instance = new PayModeView();
                 instance.MdiParent = parentContainer;
+
                 instance.FormBorderStyle = FormBorderStyle.None;
                 instance.Dock = DockStyle.Fill;
-              
             }
             else
             {
